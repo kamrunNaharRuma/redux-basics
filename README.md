@@ -1,1 +1,1 @@
-# javaScript-basics
+# redux-basics

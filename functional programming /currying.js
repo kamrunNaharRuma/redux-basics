@@ -19,3 +19,9 @@ const wrap = type => str => `<${type}> ${str} </${type}>`;
 //const transform = compose(wrapInDiv, toLower, trim);
 const transform = pipe(trim, toLowerCase, wrap("span"));
 console.log(transform(input));
+
+// const x => a => b => a => a + b + a;
+// const y = x(2)(3)(4);
+// left to right
+// up to down 
+//
